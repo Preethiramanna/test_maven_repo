@@ -5,7 +5,7 @@ pipeline {
     registryCredential = 'my_private_id'
     }
     tools {
-        maven 'maven 3.8.7'
+        maven 'maven3.8.6'
     }
     
 	agent {
