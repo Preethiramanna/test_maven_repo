@@ -1,8 +1,8 @@
 pipeline {
   environment {
-    dockerimagename = "preethiramanna/my_private_repo"
+    dockerimagename = "preethiramanna/my_private_reg"
     registry_url = "https://registry.hub.docker.com"
-    registryCredential = 'my_private_id'
+    registryCredential = 'private_key'
     }
     tools {
         maven 'maven'
